@@ -3,9 +3,8 @@ import { useEffect, useState } from "react"
 import { AnimatedLetters } from "../AnimatedLetters"
 import "./index.scss"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faCss3, faGit, faGitAlt, faHtml5, faJsSquare, faPython, faReact } from "@fortawesome/free-brands-svg-icons"
 import Loader from "react-loaders"
-import image from "../../assets/images/image.jpg"
+import image from "../../assets/images/my-profile-1.png"
 import { faAward, faFolderPlus, faFolderTree, faIdBadge } from "@fortawesome/free-solid-svg-icons"
 
 export function About(){

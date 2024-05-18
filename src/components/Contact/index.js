@@ -51,7 +51,7 @@ export function Contact(){
 
                 </div>
             </div>
-            <div className="info-map">
+            {/* <div className="info-map">
                 Mohammed Shabrez,
                 <br/>
                 India,
@@ -63,7 +63,7 @@ export function Contact(){
                 <span>sheikshabrez90@gmail.com</span>
                 <p>+91 9440152021</p>
                
-            </div>
+            </div> */}
             <div className="map-wrap">
                 <MapContainer center={[13.818538, 77.498875]} zoom={13}>
                     <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />

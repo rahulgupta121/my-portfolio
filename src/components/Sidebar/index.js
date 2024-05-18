@@ -13,7 +13,7 @@ export function Sidebar (){
         <div className="nav-bar">
             <Link className="logo" to="/">
                 <img src={LogoS} alt="logo" />
-                <p className="sub-logo">RAHUL</p>
+                <p className="sub-logo text-center">RAHUL</p>
             </Link>
             <nav>
                 <NavLink exact="true" activeclassname="active" to="/">

@@ -1,10 +1,9 @@
 import { useEffect, useState } from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faCss3, faGit, faGitAlt, faHtml5, faJsSquare, faPython, faReact } from "@fortawesome/free-brands-svg-icons"
+import { faCss3, faGit, faGitAlt, faHtml5, faJsSquare, faBootstrap, faReact } from "@fortawesome/free-brands-svg-icons"
 import { AnimatedLetters } from "../AnimatedLetters"
 import "./index.scss"
 import Loader from "react-loaders"
-import { Link } from "react-router-dom"
 
 export function Skills(){
     const[letterClass, setLetterClass] = useState('text-animate')
@@ -39,9 +38,12 @@ export function Skills(){
            <span className="tech-tag"><AnimatedLetters letterClass={letterClass} strArray={[',','REACTJS']}
                     idx={15}
                    /> </span>
-            <span className="tech-tag"><AnimatedLetters letterClass={letterClass} strArray={[',','PYTHON']}
+            <span className="tech-tag"><AnimatedLetters letterClass={letterClass} strArray={[',','BOOTSTRAP']}
                     idx={15}
                    /> </span>  
+                   <span className="tech-tag"><AnimatedLetters letterClass={letterClass} strArray={[',','TAILWIND CSS']}
+                    idx={15}
+                   /> </span>
             <span className="tech-tag"><AnimatedLetters letterClass={letterClass} strArray={[',','GIT']}
                     idx={15}
                    /> </span>   
@@ -58,7 +60,7 @@ export function Skills(){
             your project.
             </p>
             <p>
-                "Visit my"<a target="_blank" href="https://www.linkedin.com/in/g-shabrez-785362159/" rel="noreferrer"> LinkedIn </a>
+                "Visit my"<a target="_blank" href="https://www.linkedin.com/in/rahul-kumar-280430b0/" rel="noreferrer"> LinkedIn </a>
                 profile for more details. Also you can checkout my cv on this
                 <a  href="/"> Link </a>
                 , or feel free to give a peek on some of my blog
@@ -68,7 +70,7 @@ export function Skills(){
         <div className="stage-cube-cont">
                 <div className="cubespinner">
                     <div className="face1">
-                        <FontAwesomeIcon icon={faPython} style={{background:"linear-gradient(-120deg, #ffde57, #4584b6, #646464)"}} />
+                        <FontAwesomeIcon icon={faBootstrap} color="#3B71CA" />
                     </div>
                     <div className="face2">
                         <FontAwesomeIcon icon={faHtml5} color="#F06529" />

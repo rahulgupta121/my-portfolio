@@ -5,12 +5,13 @@ import { useEffect, useState } from "react"
 import { AnimatedLetters } from "../AnimatedLetters"
 // import Logo from "./Logo"
 import Loader from "react-loaders"
-import CV from "../../assets/images/G_Shabrez_Resume_10-08-2023-14-45-04.pdf"
+import CV from "../../assets/pdf/Rahul Resume.pdf"
 
 export function Home(){
     const[letterClass, setLetterClass] = useState('text-animate')
     const nameArray = [' ' ,'R','A','H','U','L']
-    const jobArray = ['F','r','o','n','t',' ','d','e','v','e','l','o','p','e','r','.']
+    // const jobArray = ['F','r','o','n','t',' ','D','e','v','e','l','o','p','e','r','.']
+    const jobArray = ['W','e','b',' ','D','e','v','e','l','o','p','e','r','.']
     const toRotate = ["FrontEnd Developer","Web Designer","UI/UX Designer"]
     const [loopNum, setLoopNum] = useState(0);
     const[isDeleting, setIsDeleting] = useState(false)
