@@ -4,8 +4,8 @@ import { AnimatedLetters } from "../AnimatedLetters"
 import "./index.scss"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Loader from "react-loaders"
-import image from "../../assets/images/my-profile-1.png"
-import { faAward, faFolderPlus, faFolderTree, faIdBadge } from "@fortawesome/free-solid-svg-icons"
+import myImage from "../../assets/images/my-profile-1.png"
+import { faAward, faFolderTree } from "@fortawesome/free-solid-svg-icons"
 
 export function About(){
     const[letterClass, setLetterClass] = useState('text-animate')
@@ -47,7 +47,7 @@ export function About(){
               <div className="about-section">
                 <div className="about-mee">
                     <div className="about-me-image">
-                        <img src={image} alt="profile-image" />
+                        <img src={myImage} alt="profile-img" />
                     </div>
                 </div>
                     <div className="about-cards">

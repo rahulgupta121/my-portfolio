@@ -1,7 +1,7 @@
 import "./index.scss"
 // import LogoTitle from "../../assets/images/logo-s.png"
 import { Link } from "react-router-dom"
-import { useEffect, useState } from "react"
+import React, { useEffect, useState } from "react"
 import { AnimatedLetters } from "../AnimatedLetters"
 // import Logo from "./Logo"
 import Loader from "react-loaders"

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faCss3, faGit, faGitAlt, faHtml5, faJsSquare, faBootstrap, faReact } from "@fortawesome/free-brands-svg-icons"
+import { faCss3, faGitAlt, faHtml5, faJsSquare, faBootstrap, faReact } from "@fortawesome/free-brands-svg-icons"
 import { AnimatedLetters } from "../AnimatedLetters"
 import "./index.scss"
 import Loader from "react-loaders"

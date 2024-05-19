@@ -5,7 +5,7 @@ import Loader from "react-loaders"
 import project1 from "../../assets/images/project-1.png"
 import project2 from "../../assets/images/bluetail.png"
 import project3 from "../../assets/images/project3.png"
-import project4 from "../../assets/images/project4.png"
+// import project4 from "../../assets/images/project4.png"
 // import project5 from "../../assets/images/project5.png"
 // import project6 from "../../assets/images/project6.png"
 // import project7 from "../../assets/images/project7.png"
@@ -95,7 +95,7 @@ export function MyWork(){
                         {visibleProjects.map((pro) => {
                             return(
                                 <div className="proCard" key={pro.id}>
-                                    <img src={pro.image} />
+                                    <img src={pro.image} alt="" />
                                     <div className="probtns">
                                         <a href={pro.liveLink} target="_blank" rel="noreferrer" className="flat-button">Live Link</a>
                                         <a href={pro.githublink} target="_blank"  rel="noreferrer" className="flat-button">Github</a>
