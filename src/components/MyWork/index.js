@@ -38,7 +38,7 @@ export function MyWork(){
     {id:5, image: blog1, title:"CSS Responsivness", liveLink:"https://portfloio-shabrez.netlify.app/responsive.html", githublink:""},
     {id:6, image: blog2, title:"About me", liveLink:"https://portfloio-shabrez.netlify.app/aboutme", githublink:""},
     {id:7, image: design1, title:"Design Layout", liveLink:"https://landingassig.netlify.app/", githublink:"https://github.com/mohshabrez/layout"},
-    {id:8, image: blog3, title:"Equal operator", liveLink:"https://shabrezdev.hashnode.dev/difference-between-vs", githublink:""},
+    // {id:8, image: blog3, title:"Equal operator", liveLink:"https://shabrezdev.hashnode.dev/difference-between-vs", githublink:""},
     // {id:9, image: blog4, title:"Type Error", liveLink:"https://shabrezdev.hashnode.dev/type-error-reference-error", githublink:""},
     // {id:10, image: blog5, title:"Reduce method", liveLink:"https://shabrezdev.hashnode.dev/reduce-method-in-javascript", githublink:""},
     // {id:11, image: blog6, title:"Find method", liveLink:"https://shabrezdev.hashnode.dev/find-method-in-javascript", githublink:""},

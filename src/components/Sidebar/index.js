@@ -33,12 +33,12 @@ export function Sidebar (){
             </nav>
             <ul>
                 <li>
-                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/g-shabrez-785362159/">
+                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/rahul-kumar-280430b0/">
                         <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e"/>
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" rel="noreferrer" href="https://github.com/mohshabrez">
+                    <a target="_blank" rel="noreferrer" href="https://github.com/rahulgupta121/">
                         <FontAwesomeIcon icon={faGithub} color="#4d4d4e"/>
                     </a>
                 </li>
