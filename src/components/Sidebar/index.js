@@ -34,12 +34,12 @@ export function Sidebar (){
             <ul>
                 <li>
                     <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/rahul-kumar-280430b0/">
-                        <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e"/>
+                        <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" style={{fontSize: "26px"}}/>
                     </a>
                 </li>
                 <li>
                     <a target="_blank" rel="noreferrer" href="https://github.com/rahulgupta121/">
-                        <FontAwesomeIcon icon={faGithub} color="#4d4d4e"/>
+                        <FontAwesomeIcon icon={faGithub} color="#4d4d4e" style={{fontSize: "26px"}}/>
                     </a>
                 </li>
             </ul>

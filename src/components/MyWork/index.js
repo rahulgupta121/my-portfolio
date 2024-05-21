@@ -5,39 +5,22 @@ import Loader from "react-loaders"
 import project1 from "../../assets/images/project-1.png"
 import project2 from "../../assets/images/bluetail.png"
 import project3 from "../../assets/images/project3.png"
-// import project4 from "../../assets/images/project4.png"
-// import project5 from "../../assets/images/project5.png"
-// import project6 from "../../assets/images/project6.png"
-// import project7 from "../../assets/images/project7.png"
-// import project8 from "../../assets/images/project8.png"
-// import project9 from "../../assets/images/project9.png"
-// import project10 from "../../assets/images/project10.png"
-// import project11 from "../../assets/images/project11.png"
-import blog1 from "../../assets/images/nlog1.png"
-import blog2 from "../../assets/images/blog2.png"
-import design1 from "../../assets/images/design1.png"
-import blog3 from "../../assets/images/blog3.webp"
-// import blog4 from "../../assets/images/blog4.webp"
-// import blog5 from "../../assets/images/blog5.webp"
-// import blog6 from "../../assets/images/blog6.webp"
-// import blog7 from "../../assets/images/blog7.webp"
-// import blog8 from "../../assets/images/blog8.webp"
-// import { Link } from "react-router-dom"
+import chartcommando from "../../assets/images/chartcommando.png"
+import mitwpuInternational from "../../assets/images/mitInter.png"
+import parulpathway from "../../assets/images/parulpathway.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowAltCircleLeft, faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons"
-
-
 
 export function MyWork(){
     const[letterClass, setLetterClass] = useState('text-animate')
 
-    const projects = [{id:1, image: project1, title:"Snap Test", liveLink:"https://www.snaptest.org/", githublink:"https://github.com/mohshabrez/socialio_master"},
+    const projects = [{id:1, image: project1, title:"Snap Test", liveLink:"https://www.snaptest.org/", githublink:""},
     // {id:2, image: project2, title:"TravLo", liveLink:"https://travlo-e-commerece.netlify.app/", githublink:"https://github.com/mohshabrez/TravLo-E-Commerce"},
-    {id:3, image: project3, title:"Mail", liveLink:"https://codesandbox.io/s/react-ps-set-10-from-rockey-8s2dm6", githublink:"https://github.com/mohshabrez/Shabrez-s-Mail-Box"},
+    {id:3, image: project3, title:"Inifd", liveLink:"https://staging-web.srv.media/inifd-kothrud-microwebsite-3/", githublink:""},
     {id:4, image: project2, title:"Bluetail", liveLink:{project2}, githublink:""},
-    {id:5, image: blog1, title:"CSS Responsivness", liveLink:"https://portfloio-shabrez.netlify.app/responsive.html", githublink:""},
-    {id:6, image: blog2, title:"About me", liveLink:"https://portfloio-shabrez.netlify.app/aboutme", githublink:""},
-    {id:7, image: design1, title:"Design Layout", liveLink:"https://landingassig.netlify.app/", githublink:"https://github.com/mohshabrez/layout"},
+    {id:5, image: mitwpuInternational, title:"", liveLink:"https://admissions.mitwpu.edu.in/international/", githublink:""},
+    {id:6, image: chartcommando, title:"Chart Commando Landing Page", liveLink:"https://online.chartcommando.com/webinar/", githublink:""},
+    {id:7, image: parulpathway, title:"Pathway LP", liveLink:"https://paruluniversity.ac.in/pathwayprograms_2023/", githublink:""},
     // {id:8, image: blog3, title:"Equal operator", liveLink:"https://shabrezdev.hashnode.dev/difference-between-vs", githublink:""},
     // {id:9, image: blog4, title:"Type Error", liveLink:"https://shabrezdev.hashnode.dev/type-error-reference-error", githublink:""},
     // {id:10, image: blog5, title:"Reduce method", liveLink:"https://shabrezdev.hashnode.dev/reduce-method-in-javascript", githublink:""},
