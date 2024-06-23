@@ -1,20 +1,11 @@
-html{
-  font-size: 62.5%;
-}
-body {
-  margin: 0;
-  font: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
-  color: #444;
-  background-image: url(../src/assets/images/background-4.jpg);
-  /* background-color: #444; */
-  background-position: top center;
-  background-size: cover;
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  /* display: block; */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+::-webkit-scrollbar {
+  width: 5px;
 }
 
+::-webkit-scrollbar-thumb {
+  background: grey;
+}
 
+::-webkit-scrollbar-track {
+  background: transparent;
+}
