@@ -22,6 +22,8 @@ import routes from "../../routes";
 import TechStackCard from "../../components/techStackCard/techStackCard";
 import AboutMeInfo from "../../components/aboutMeInfo/aboutMeInfo";
 import angular from "../../assets/icons/angular.svg";
+import netlify from "../../assets/icons/netlify.svg";
+import aws from "../../assets/icons/aws.png";
 import typescript from "../../assets/icons/typescript.svg";
 import node from "../../assets/icons/nodejs.svg";
 import mongo from "../../assets/icons/mongodb.svg";
@@ -124,32 +126,32 @@ export default function About() {
                   <AboutMeInfo
                     boxShadow={cardShadow}
                     title="Current Organization"
-                    value="Truminds Software Systems"
+                    value="IHub-Data, IIIT Hyderabad"
                   />
                   <AboutMeInfo
                     boxShadow={cardShadow}
                     title="Designation"
-                    value="Software Development Engineer - 1"
+                    value="FrontEnd Developer"
                   />
                   <AboutMeInfo
                     boxShadow={cardShadow}
                     title="Location"
-                    value="Bengaluru, Karnataka"
+                    value="Hyderabad, Telangana"
                   />
                   <AboutMeInfo
                     boxShadow={cardShadow}
                     title="Education"
-                    value="BIT Mesra, Ranchi"
+                    value="Baddi University Emerging Science & Technology, Solan (H.P)"
                   />
                   <AboutMeInfo
                     boxShadow={cardShadow}
                     title="Degree"
-                    value="Masters"
+                    value="Bechlore"
                   />
                   <AboutMeInfo
                     boxShadow={cardShadow}
                     title="Languages"
-                    value="English, Hindi, Odia"
+                    value="English, Hindi"
                   />
                 </SimpleGrid>
               </Box>
@@ -174,14 +176,16 @@ export default function About() {
           align={{ base: "center", xl: "center" }}
           justify={{ base: "center", xl: "center" }}
         >
-          <TechStackCard imagepath={angular} />
+          {/* <TechStackCard imagepath={angular} /> */}
           <TechStackCard imagepath={react} />
           <TechStackCard imagepath={js} />
-          <TechStackCard imagepath={typescript} />
-          <TechStackCard imagepath={cpp} />
+          {/* <TechStackCard imagepath={typescript} /> */}
+          {/* <TechStackCard imagepath={cpp} /> */}
+          <TechStackCard imagepath={netlify} />
+          {/* <TechStackCard imagepath={aws} /> */}
           <TechStackCard imagepath={node} />
           <TechStackCard imagepath={mongo} />
-          <TechStackCard imagepath={express} background="white" />
+          {/* <TechStackCard imagepath={express} background="white" /> */}
           <TechStackCard imagepath={git} />
           <TechStackCard imagepath={gitlab} />
           <TechStackCard imagepath={html} />
@@ -201,7 +205,7 @@ export default function About() {
         </Flex>
         <Box display="flex" justifyContent="center" alignItems="center">
           <GitHubCalendar
-            username="vasanthi-cherukuri"
+            username="rahulgupta121"
             colorScheme={colorMode === "light" ? "light" : "dark"}
             year="last"
           />
@@ -209,7 +213,7 @@ export default function About() {
         <Flex justifyContent="center" alignItems="center" mt="20px">
           {colorMode === "light" ? (
             <LazyLoadImage
-              src="#"
+              src="https://github.com/rahulgupta121"
               alt="GitHub Streak"
               effect="blur"
             />
@@ -222,7 +226,7 @@ export default function About() {
           )}
         </Flex>
         <Flex justifyContent="center" alignItems="center" mt="20px">
-          <Link href="#" target="blank">
+          <Link href="https://github.com/rahulgupta121" target="blank">
             <Button variant="darkBrand" fontSize="sm" fontFamily="DM Sans">
               Visit Github
             </Button>
