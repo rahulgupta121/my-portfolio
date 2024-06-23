@@ -1,6 +1,6 @@
 # Portfolio
 
-Self Coded Portfolio Website made using React JS and VASANTHI UI.
+Self Coded Portfolio Website made using React JS and Chakra UI.
 
 ## Features 📋
 
@@ -25,7 +25,7 @@ Self Coded Portfolio Website made using React JS and VASANTHI UI.
 **1. Clone this repo by running the following command :-**
 
 ```bash
-git clone https://github.com/vilalali/portfolio-vasanthi.git 
+git clone https://github.com/rahulgupta121/my-portfolio
 ```
 
 **2. Now Install all the required packages by running the following commands :-**
