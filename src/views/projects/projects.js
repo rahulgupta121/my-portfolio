@@ -9,12 +9,12 @@ import {
 import routes from "../../routes";
 import Navbar from "../../components/Navbar/Navbar";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
-import nftproject from "../../assets/projects/nft_blockchain_500x300.jpg";
-import medhub from "../../assets/projects/medhub_500x300.jpg";
-import collab from "../../assets/projects/lets_collab_img3.jpg";
-import blog from "../../assets/projects/bloggers.jpg";
-import eeg from "../../assets/projects/eeg_500x300.jpg";
-import mtrans from "../../assets/projects/mt_500x300.jpg";
+import bluetail from "../../assets/projects/bluetail.png";
+import chartcommando from "../../assets/projects/chartcommando.png";
+import mitwpu from "../../assets/projects/mitInter.png";
+import parul from "../../assets/projects/parulpathway.png";
+import snaptest from "../../assets/projects/project-1.png";
+import inifd from "../../assets/projects/project3.png";
 import steg from "../../assets/projects/steg_500x300.jpeg";
 
 export default function Projects() {
@@ -47,60 +47,60 @@ export default function Projects() {
           justifyContent="center"
         >
           <ProjectCard
-            projectImage={nftproject}
-            projectName={"NFT Based E-Commerce Website"}
-            aboutProject={"Blockchain based warranty using NFT"}
-            techStack={"EXPRESS JS, NODE JS, REACT JS, MONGODB, SOLIDITY"}
-            projectLiveLink="https://flipkart-grid-frontend.vercel.app/"
+            projectImage={bluetail}
+            projectName={"BlueTail Website"}
+            // aboutProject={"Blockchain based warranty using NFT"}
+            techStack={"Python, REACT JS, MONGODB, Bootstrap, CSS3"}
+            projectLiveLink="#"
             projectLink="#"
           />
           <ProjectCard
-            projectImage={collab}
-            projectName={"LET'S COLLAB"}
-            aboutProject={"A Realtime Chatting Application"}
-            techStack={"EXPRESS JS, NODE JS, REACT JS, MONGODB"}
-            projectLiveLink="https://lets-collab.vercel.app/"
+            projectImage={chartcommando}
+            projectName={"Chart Commando website"}
+            // aboutProject={"A Realtime Chatting Application"}
+            techStack={"Html, CSS, Js, JQuary, Bootstrap"}
+            projectLiveLink="https://online.chartcommando.com/webinar/"
             projectLink="#"
           />
           <ProjectCard
-            projectImage={medhub}
-            projectName={"MedHub-360"}
-            aboutProject={
-              "An Advanced Medical-Healthcare Application To Analyse Medical Reports For Patients And Doctors"
-            }
+            projectImage={mitwpu}
+            projectName={"MIT WPU "}
+            // aboutProject={
+            //   "An Advanced Medical-Healthcare Application To Analyse Medical Reports For Patients And Doctors"
+            // }
             techStack={
-              "JAVASCRIPT, PYTHON, NODE JS, MONGODB, HTML, BOOTSTRAP, CSS,TESSERACT-OCR, FLASK"
+              "JAVASCRIPT, PHP, HTML, BOOTSTRAP, CSS"
             }
-            projectLiveLink="https://medhub-360.vercel.app/"
+            projectLiveLink="https://admissions.mitwpu.edu.in/international/"
             projectLink="#"
           />
           <ProjectCard
-            projectImage={blog}
-            projectName={"Bloggers Arena"}
-            aboutProject={"A Blogging Website with User Authentication"}
-            techStack={"EXPRESS JS, NODE JS, REACT JS, MONGODB"}
-            projectLiveLink="https://bloggers-arena.vercel.app/"
+            projectImage={parul}
+            projectName={"Parul Pathway"}
+            // aboutProject={"A Blogging Website with User Authentication"}
+            techStack={"JAVASCRIPT, PHP, HTML, BOOTSTRAP, CSS"}
+            projectLiveLink=""
             projectLink="#"
           />
           <ProjectCard
-            projectImage={eeg}
-            projectName={"Emotion Recognition from Psychological Signals"}
-            aboutProject={
-              "Detection of Human Emotions from EEG signals using the AMIGOS Dataset"
-            }
+            projectImage={snaptest}
+            projectName={"Snaptest Project"}
+            // aboutProject={
+            //   "Detection of Human Emotions from EEG signals using the AMIGOS Dataset"
+            // }
             techStack={
-              "PYTORCH, CNN, SVC, PYTHON, FOURIER AND WAVELET TRANSFORMATIONS, STFT, ENTROPY, FEATURE FUSION"
+              "JAVASCRIPT, PHP, HTML, BOOTSTRAP, CSS"
             }
-            projectLink="#"
+            projectLink="https://www.snaptest.org/"
           />
           <ProjectCard
-            projectImage={mtrans}
-            projectName={"Machine Translation"}
-            aboutProject={
-              "Translated Texts With The Help Of Encoder- Decoder LSTM Model And Attention Mechanism"
-            }
-            techStack={"LSTM, ENCODER-DECODER, ATTENTION MECHANISM"}
-            projectLink="#"
+            projectImage={inifd}
+            projectName={"INIFD Fashion website"}
+            // aboutProject={
+            //   "Translated Texts With The Help Of Encoder- Decoder LSTM Model And Attention Mechanism"
+            // }
+            techStack={"JAVASCRIPT, PHP, HTML, BOOTSTRAP, CSS"}
+            projectLink="https://staging-web.srv.media/inifd-kothrud-microwebsite-3/"
           />
         </SimpleGrid>
         <Flex

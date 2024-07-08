@@ -86,7 +86,7 @@ export default function Sidenav(props) {
               data-color-scheme="no-preference: light; light: light; dark: dark_dimmed;"
               data-icon="octicon-star"
               data-size="large"
-              aria-label="Star Vasanthi"
+              aria-label="Star Rahul"
             >
               Star
             </GitHubButton>
@@ -96,7 +96,7 @@ export default function Sidenav(props) {
               data-color-scheme="no-preference: light; light: light; dark: dark_dimmed;"
               data-icon="octicon-repo-forked"
               data-size="large"
-              aria-label="Fork Vasanthi"
+              aria-label="Fork Rahul"
             >
               Fork
             </GitHubButton>
