@@ -2,7 +2,8 @@ import React from "react";
 import routes from "../../routes";
 import Navbar from "../../components/Navbar/Navbar";
 import { Box, useStyleConfig, Flex, Button } from "@chakra-ui/react";
-
+import myResume from "../../assets/pdf/Rahul Resume 22-sep.pdf"
+// const myResume = "../../assets/pdf/Rahul Resume 22-sep.pdf";
 export default function Resume() {
   const styles = useStyleConfig("Card");
   const getActiveRoute = (routes) => {
@@ -14,8 +15,12 @@ export default function Resume() {
   };
 
   const handleDownload = () => {
-    window.location.href =
-      "https://drive.google.com/file/d/1tHxe3HJlKoOc54TFqJY7d7kP_W61-AP_";
+    // const link = document.createElement("a");
+    // link.href = myResume;
+    // link.setAttribute("download", "Rahul_Resume_22-sep.pdf");
+    // document.body.appendChild(link);
+    // link.click();
+    // document.body.removeChild(link);
   };
 
   return (
@@ -31,7 +36,7 @@ export default function Resume() {
             borderRadius="md"
           >
             <iframe
-              src="https://drive.google.com/file/d/1tHxe3HJlKoOc54TFqJY7d7kP_W61-AP_/preview"
+              src={handleDownload}
               title="Resume"
               width="100%"
               height="100%"
@@ -42,7 +47,7 @@ export default function Resume() {
         </Flex>
         <Flex justifyContent="center" alignItems="center" mt="20px">
           <Button
-            onClick={handleDownload}
+            onClick={myResume}
             variant="darkBrand"
             fontSize="sm"
             fontFamily="DM Sans"

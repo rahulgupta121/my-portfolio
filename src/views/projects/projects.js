@@ -47,14 +47,6 @@ export default function Projects() {
           justifyContent="center"
         >
           <ProjectCard
-            projectImage={bluetail}
-            projectName={"BlueTail Website"}
-            // aboutProject={"Blockchain based warranty using NFT"}
-            techStack={"Python, REACT JS, MONGODB, Bootstrap, CSS3"}
-            projectLiveLink="#"
-            projectLink="#"
-          />
-          <ProjectCard
             projectImage={chartcommando}
             projectName={"Chart Commando website"}
             // aboutProject={"A Realtime Chatting Application"}
@@ -79,7 +71,7 @@ export default function Projects() {
             projectName={"Parul Pathway"}
             // aboutProject={"A Blogging Website with User Authentication"}
             techStack={"JAVASCRIPT, PHP, HTML, BOOTSTRAP, CSS"}
-            projectLiveLink=""
+            projectLiveLink="https://paruluniversity.ac.in/pathwayprograms_2023/"
             projectLink="#"
           />
           <ProjectCard
@@ -102,8 +94,16 @@ export default function Projects() {
             techStack={"JAVASCRIPT, PHP, HTML, BOOTSTRAP, CSS"}
             projectLink="https://staging-web.srv.media/inifd-kothrud-microwebsite-3/"
           />
+          <ProjectCard
+            projectImage={bluetail}
+            projectName={"BlueTail Website"}
+            // aboutProject={"Blockchain based warranty using NFT"}
+            techStack={"Python, REACT JS, MONGODB, Bootstrap, CSS3"}
+            projectLiveLink="#"
+            projectLink="#"
+          />
         </SimpleGrid>
-        <Flex
+        {/* <Flex
           direction="row"
           justifyContent="center"
           alignItems="Center"
@@ -132,7 +132,7 @@ export default function Projects() {
             aboutProject={"This Blog is about hiding an Image inside an Image"}
             projectLink="#"
           />
-        </SimpleGrid>
+        </SimpleGrid> */}
       </Box>
     </Box>
   );
