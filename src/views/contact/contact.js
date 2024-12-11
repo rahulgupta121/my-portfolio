@@ -65,7 +65,7 @@ export default function Contact() {
               </Box>
               <Text textAlign="center">FIND ME @</Text>
               <Text color={textColorPrimary} textAlign="center" mt="5px">
-              IHub-Data, IIIT Hyderabad
+              HCLTech
               </Text>
             </Box>
           </Flex>
@@ -80,7 +80,7 @@ export default function Contact() {
                 <Link
                   to="#"
                   onClick={(e) => {
-                    window.location.href = "mailto:rahulkumar3.1996@gmail.com";
+                    window.location.href = "mailto:k.bhaskar306@gmail.com";
                     e.preventDefault();
                   }}
                 >
@@ -97,7 +97,7 @@ export default function Contact() {
               <Text textAlign="center">EMAIL ME @</Text>
 
               <Text color={textColorPrimary} textAlign="center" mt="5px">
-                  rahulkumar3.1996@gmail.com
+                  k.bhaskar306@gmail.com
               </Text>
             </Box>
           </Flex>
@@ -118,7 +118,7 @@ export default function Contact() {
               </Box>
               <Text textAlign="center">CALL ME @</Text>
               <Text color={textColorPrimary} textAlign="center" mt="5px">
-                (+91)-8219956151
+                (+91)-8099289828
               </Text>
             </Box>
           </Flex>

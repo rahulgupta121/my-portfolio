@@ -34,7 +34,7 @@ export default function Dashboard() {
 
   useEffect(() => {
     axios
-      .get("https://api.quotable.io/random")
+      .get("https://api.quotable.io/quotes/random")
       .then((response) => {
         let content = response.data.content;
         setQuote(content);
@@ -79,7 +79,7 @@ export default function Dashboard() {
                     fontWeight="bold"
                     color={textColor}
                   >
-                    Hello Everyone!! 🙋🏻‍♂️
+                    Hello Everyone!! 
                   </Text>
 
                   <Text
@@ -90,8 +90,7 @@ export default function Dashboard() {
                   >
                     This is{" "}
                     <Text display="inline-flex" color={highlightTextColor}>
-                      Rahul Kumar
-                    </Text>
+                      Bhaskar Kuntimalla                    </Text>
                   </Text>
 
                   <Text
@@ -102,7 +101,7 @@ export default function Dashboard() {
                   >
                     I am a{" "}
                     <Text display="inline-flex" color={highlightTextColor}>
-                      FrontEnd Developer
+                      Senior Technical Lead
                     </Text>
                   </Text>
                 </Box>

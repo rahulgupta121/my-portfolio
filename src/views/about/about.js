@@ -126,32 +126,32 @@ export default function About() {
                   <AboutMeInfo
                     boxShadow={cardShadow}
                     title="Current Organization"
-                    value="IHub-Data, IIIT Hyderabad"
+                    value="HCLTech, Bangalore"
                   />
                   <AboutMeInfo
                     boxShadow={cardShadow}
                     title="Designation"
-                    value="FrontEnd Developer"
+                    value="Senior Technical Lead"
                   />
                   <AboutMeInfo
                     boxShadow={cardShadow}
                     title="Location"
-                    value="Hyderabad, Telangana"
+                    value="Bangalore, Karnataka"
                   />
                   <AboutMeInfo
                     boxShadow={cardShadow}
                     title="Education"
-                    value="Baddi University Emerging Science & Technology, Solan (H.P)"
+                    value="JNTU Anantapur"
                   />
                   <AboutMeInfo
                     boxShadow={cardShadow}
                     title="Degree"
-                    value="Bechlore"
+                    value="M.Tech"
                   />
                   <AboutMeInfo
                     boxShadow={cardShadow}
-                    title="Languages"
-                    value="English, Hindi"
+                    title="Languages" 
+                    value="English, Telugu, Hindi"
                   />
                 </SimpleGrid>
               </Box>
@@ -213,7 +213,7 @@ export default function About() {
         <Flex justifyContent="center" alignItems="center" mt="20px">
           {colorMode === "light" ? (
             <LazyLoadImage
-              src="https://github.com/rahulgupta121"
+              src="https://github.com/KBHASKAR306"
               alt="GitHub Streak"
               effect="blur"
             />
@@ -226,7 +226,7 @@ export default function About() {
           )}
         </Flex>
         <Flex justifyContent="center" alignItems="center" mt="20px">
-          <Link href="https://github.com/rahulgupta121" target="blank">
+          <Link href="https://github.com/KBHASKAR306" target="blank">
             <Button variant="darkBrand" fontSize="sm" fontFamily="DM Sans">
               Visit Github
             </Button>

@@ -49,7 +49,7 @@ export default function Footer() {
       >
         {" "}
         &copy; {1900 + new Date().getYear()}
-        {"</>"} with <AiFillHeart /> by Rahul Kumar • All Rights Reserved
+        {"</>"} with <AiFillHeart /> by K Bhaskar • All Rights Reserved
       </Text>
       <List display="flex">
         <ListItem

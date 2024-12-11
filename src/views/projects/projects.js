@@ -56,7 +56,7 @@ export default function Projects() {
           />
           <ProjectCard
             projectImage={mitwpu}
-            projectName={"MIT WPU "}
+            projectName={"MIT WPU "} 
             // aboutProject={
             //   "An Advanced Medical-Healthcare Application To Analyse Medical Reports For Patients And Doctors"
             // }
