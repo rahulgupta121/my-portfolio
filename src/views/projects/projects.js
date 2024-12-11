@@ -9,12 +9,12 @@ import {
 import routes from "../../routes";
 import Navbar from "../../components/Navbar/Navbar";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
-import bluetail from "../../assets/projects/bluetail.png";
-import chartcommando from "../../assets/projects/chartcommando.png";
-import mitwpu from "../../assets/projects/mitInter.png";
-import parul from "../../assets/projects/parulpathway.png";
-import snaptest from "../../assets/projects/project-1.png";
-import inifd from "../../assets/projects/project3.png";
+import bluetail from "../../assets/projects/Bhaskar/ScribbleNet.png";
+import chartcommando from "../../assets/projects/Bhaskar/M.Net.png";
+import mitwpu from "../../assets/projects/Bhaskar/EDRI AND RVS.png";
+import parul from "../../assets/projects/Bhaskar/iRASTE.jpg";
+import snaptest from "../../assets/projects/Bhaskar/Drone Project.jpg";
+import inifd from "../../assets/projects/Bhaskar/Wrongway Vehicles Detection.jpg";
 import steg from "../../assets/projects/steg_500x300.jpeg";
 
 export default function Projects() {
@@ -51,7 +51,7 @@ export default function Projects() {
             projectName={"Chart Commando website"}
             // aboutProject={"A Realtime Chatting Application"}
             techStack={"Html, CSS, Js, JQuary, Bootstrap"}
-            projectLiveLink="https://online.chartcommando.com/webinar/"
+            projectLiveLink="https://github.com/KBHASKAR306/MNet"
             projectLink="#"
           />
           <ProjectCard
@@ -63,7 +63,7 @@ export default function Projects() {
             techStack={
               "JAVASCRIPT, PHP, HTML, BOOTSTRAP, CSS"
             }
-            projectLiveLink="https://admissions.mitwpu.edu.in/international/"
+            projectLiveLink="https://siddharthpilliinai.github.io/docs-1/"
             projectLink="#"
           />
           <ProjectCard
@@ -71,7 +71,7 @@ export default function Projects() {
             projectName={"Parul Pathway"}
             // aboutProject={"A Blogging Website with User Authentication"}
             techStack={"JAVASCRIPT, PHP, HTML, BOOTSTRAP, CSS"}
-            projectLiveLink="https://paruluniversity.ac.in/pathwayprograms_2023/"
+            projectLiveLink="https://inai.iiit.ac.in/iraste.html"
             projectLink="#"
           />
           <ProjectCard
@@ -83,7 +83,7 @@ export default function Projects() {
             techStack={
               "JAVASCRIPT, PHP, HTML, BOOTSTRAP, CSS"
             }
-            projectLink="https://www.snaptest.org/"
+            projectLink="https://inaix.iiit.ac.in/Mobility/ddm_demo#"
           />
           <ProjectCard
             projectImage={inifd}
@@ -92,7 +92,7 @@ export default function Projects() {
             //   "Translated Texts With The Help Of Encoder- Decoder LSTM Model And Attention Mechanism"
             // }
             techStack={"JAVASCRIPT, PHP, HTML, BOOTSTRAP, CSS"}
-            projectLink="https://staging-web.srv.media/inifd-kothrud-microwebsite-3/"
+            projectLink="https://github.com/KBHASKAR306/Wrongway_Detection"
           />
           <ProjectCard
             projectImage={bluetail}
@@ -100,7 +100,7 @@ export default function Projects() {
             // aboutProject={"Blockchain based warranty using NFT"}
             techStack={"Python, REACT JS, MONGODB, Bootstrap, CSS3"}
             projectLiveLink="#"
-            projectLink="#"
+            projectLink="https://github.com/KBHASKAR306/ScribbleNet"
           />
         </SimpleGrid>
         {/* <Flex

@@ -273,7 +273,7 @@ export default function About() {
                 color="inherit"
               />
             </Box>
-            <Text textAlign="center">Playing Drums</Text>
+            <Text textAlign="center">Playing</Text>
             <Text color={textColorPrimary} textAlign="center" mt="5px">
             Playing cricket keeps me active and engaged.
             </Text>
@@ -287,7 +287,7 @@ export default function About() {
                 color="inherit"
               />
             </Box>
-            <Text textAlign="center">Playing Outdoor Games</Text>
+            <Text textAlign="center">Listening</Text>
             <Text color={textColorPrimary} textAlign="center" mt="5px">
             Listening to music and audiobooks provides a perfect balance of relaxation and intellectual stimulation.
             </Text>
