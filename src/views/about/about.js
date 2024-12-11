@@ -261,12 +261,7 @@ export default function About() {
             </Box>
             <Text textAlign="center">Travelling & Exploring</Text>
             <Text color={textColorPrimary} textAlign="center" mt="5px">
-              I am passionate about traveling and exploring new places. Whether
-              it's uncovering hidden gems in my own backyard or embarking on
-              exciting adventures, I thrive on the thrill of discovering new
-              cultures, cuisines, and landscapes. Traveling not only broadens my
-              horizons but also provides me with valuable life experiences and a
-              deep appreciation for the diversity of our world!!
+            I have a passion for exploring new places and cultures through traveling, which fuels my sense of adventure.
             </Text>
           </Box>
           <Box __css={styles}>
@@ -280,13 +275,7 @@ export default function About() {
             </Box>
             <Text textAlign="center">Playing Drums</Text>
             <Text color={textColorPrimary} textAlign="center" mt="5px">
-              I have a deep passion for playing the drums, which has been a
-              cherished hobby of mine for many years. The rhythmic beats and the
-              feeling of being in sync with the music provide me with a sense of
-              joy and creative expression that is truly unparalleled. Whether
-              it's jamming with friends, exploring new techniques, or simply
-              drumming to my favorite tunes, I find immense fulfillment and
-              relaxation in this musical pursuit!!
+            Playing cricket keeps me active and engaged.
             </Text>
           </Box>
           <Box __css={styles}>
@@ -300,13 +289,7 @@ export default function About() {
             </Box>
             <Text textAlign="center">Playing Outdoor Games</Text>
             <Text color={textColorPrimary} textAlign="center" mt="5px">
-              Whether it's a competitive game of soccer, a relaxing round of
-              golf, or simply throwing a frisbee in the park, I find immense joy
-              and fulfillment in the great outdoors. Playing sports not only
-              keeps me physically active but also fosters teamwork, leadership,
-              and a strong sense of camaraderie. It's a wonderful way for me to
-              unwind, stay fit, and connect with friends and family while
-              enjoying the beauty of nature!!
+            Listening to music and audiobooks provides a perfect balance of relaxation and intellectual stimulation.
             </Text>
           </Box>
         </SimpleGrid>
