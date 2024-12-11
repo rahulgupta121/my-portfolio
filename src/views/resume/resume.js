@@ -2,7 +2,7 @@ import React from "react";
 import routes from "../../routes";
 import Navbar from "../../components/Navbar/Navbar";
 import { Box, useStyleConfig, Flex, Button } from "@chakra-ui/react";
-import myResume from "../../assets/pdf/SFW RESUME(Exp).pdf"
+// import myResume from "../../assets/pdf/SFW RESUME(Exp).pdf"
 // const myResume = "../../assets/pdf/Rahul Resume 22-sep.pdf";
 export default function Resume() {
   const styles = useStyleConfig("Card");
@@ -42,7 +42,7 @@ export default function Resume() {
         </Flex>
         <Flex justifyContent="center" alignItems="center" mt="20px">
           <Button
-            onClick={myResume}
+            onClick={handleDownload}
             variant="darkBrand"
             fontSize="sm"
             fontFamily="DM Sans"
