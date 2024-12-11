@@ -31,7 +31,7 @@ export default function Resume() {
             borderRadius="md"
           >
             <iframe
-              src="https://drive.google.com/file/d/1_Fhg4qVohYKMH-5Lo7FH7E8rnY0O7p4i/_preview"
+              src="https://drive.google.com/file/d/1_Fhg4qVohYKMH-5Lo7FH7E8rnY0O7p4i/preview"
               title="Resume"
               width="100%"
               height="100%"
