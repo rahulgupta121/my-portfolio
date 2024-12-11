@@ -15,12 +15,7 @@ export default function Resume() {
   };
 
   const handleDownload = () => {
-    // const link = document.createElement("a");
-    // link.href = myResume;
-    // link.setAttribute("download", "Rahul_Resume_22-sep.pdf");
-    // document.body.appendChild(link);
-    // link.click();
-    // document.body.removeChild(link);
+    window.location.href = "https://drive.google.com/file/d/1_Fhg4qVohYKMH-5Lo7FH7E8rnY0O7p4i"
   };
 
   return (
@@ -36,7 +31,7 @@ export default function Resume() {
             borderRadius="md"
           >
             <iframe
-              src={handleDownload}
+              src="https://drive.google.com/file/d/1_Fhg4qVohYKMH-5Lo7FH7E8rnY0O7p4i/_preview"
               title="Resume"
               width="100%"
               height="100%"
