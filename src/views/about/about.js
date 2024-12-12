@@ -38,6 +38,35 @@ import express from "../../assets/icons/express.svg";
 import myphoto from "../../assets/dashboardgif.gif";
 import GitHubCalendar from "react-github-calendar";
 
+
+// new anna logo
+import AI from "../../assets/icons/Bhaskar/resize/AI.jpg";
+import AutoML from "../../assets/icons/Bhaskar/resize/AutoML.png";
+// import B from "../../assets/icons/Bhaskar/resize/B.png";
+import ChatGPT from "../../assets/icons/Bhaskar/resize/ChatGPT.png";
+import DeepLearning from "../../assets/icons/Bhaskar/resize/Deep Learning.png";
+import GenAI from "../../assets/icons/Bhaskar/resize/Gen AI.png";
+import Langchain from "../../assets/icons/Bhaskar/resize/Langchain.png";
+import NLP from "../../assets/icons/Bhaskar/resize/NLP.png";
+import Numpy from "../../assets/icons/Bhaskar/resize/Numpy.jpeg";
+import Pandas from "../../assets/icons/Bhaskar/resize/Pandas.png";
+import PowerBI from "../../assets/icons/Bhaskar/resize/Power BI.png";
+import Python from "../../assets/icons/Bhaskar/resize/Python.png";
+import R from "../../assets/icons/Bhaskar/resize/R.jpeg";
+import SQL from "../../assets/icons/Bhaskar/resize/SQL.jpeg";
+import Scikit from "../../assets/icons/Bhaskar/resize/Scikit.png";
+import Statistics from "../../assets/icons/Bhaskar/resize/Statistics.png";
+import Tensorflow from "../../assets/icons/Bhaskar/resize/Tensorflow.png";
+import computervision from "../../assets/icons/Bhaskar/resize/computer-vision.jpg";
+import llm from "../../assets/icons/Bhaskar/resize/llm.jpg";
+import machinelearning from "../../assets/icons/Bhaskar/resize/machine-learning.jpg";
+import prompt from "../../assets/icons/Bhaskar/resize/prompt.png";
+import pytorch from "../../assets/icons/Bhaskar/resize/pytorch.png";
+import tableau from "../../assets/icons/Bhaskar/resize/tableau.png";
+import bigdata from "../../assets/icons/Bhaskar/resize/Big-Data-Tools (1).png";
+
+
+
 export default function About() {
   const styles = useStyleConfig("Card");
   const { colorMode } = useColorMode();
@@ -177,19 +206,34 @@ export default function About() {
           justify={{ base: "center", xl: "center" }}
         >
           {/* <TechStackCard imagepath={angular} /> */}
-          <TechStackCard imagepath={react} />
-          <TechStackCard imagepath={js} />
+          <TechStackCard imagepath={Python} />
+          <TechStackCard imagepath={R} />
           {/* <TechStackCard imagepath={typescript} /> */}
           {/* <TechStackCard imagepath={cpp} /> */}
-          <TechStackCard imagepath={netlify} />
+          <TechStackCard imagepath={Statistics} />
           {/* <TechStackCard imagepath={aws} /> */}
-          <TechStackCard imagepath={node} />
-          <TechStackCard imagepath={mongo} />
-          {/* <TechStackCard imagepath={express} background="white" /> */}
+          <TechStackCard imagepath={SQL} />
+          <TechStackCard imagepath={Numpy} />
+          <TechStackCard imagepath={Pandas} />
+          <TechStackCard imagepath={Scikit} />
+          <TechStackCard imagepath={Tensorflow} />
+          <TechStackCard imagepath={pytorch} />
+          <TechStackCard imagepath={machinelearning} />
+          
+          <TechStackCard imagepath={DeepLearning} />
+          <TechStackCard imagepath={NLP} />
+          <TechStackCard imagepath={computervision} />
+          <TechStackCard imagepath={llm} />
+          <TechStackCard imagepath={GenAI} />
+          <TechStackCard imagepath={AutoML} />
+          <TechStackCard imagepath={prompt} />
+          <TechStackCard imagepath={Langchain} />
+          <TechStackCard imagepath={ChatGPT} />
+          <TechStackCard imagepath={PowerBI} />
+          <TechStackCard imagepath={tableau} />
+          <TechStackCard imagepath={bigdata} />
           <TechStackCard imagepath={git} />
           <TechStackCard imagepath={gitlab} />
-          <TechStackCard imagepath={html} />
-          <TechStackCard imagepath={css} />
         </SimpleGrid>
 
         <Flex
@@ -205,7 +249,7 @@ export default function About() {
         </Flex>
         <Box display="flex" justifyContent="center" alignItems="center">
           <GitHubCalendar
-            username="rahulgupta121"
+            username="KBHASKAR306"
             colorScheme={colorMode === "light" ? "light" : "dark"}
             year="last"
           />

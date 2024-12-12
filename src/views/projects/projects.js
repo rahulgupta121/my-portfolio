@@ -51,8 +51,8 @@ export default function Projects() {
             projectName={"Chart Commando website"}
             // aboutProject={"A Realtime Chatting Application"}
             techStack={"Html, CSS, Js, JQuary, Bootstrap"}
-            projectLiveLink="https://github.com/KBHASKAR306/MNet"
-            projectLink="#"
+            // projectLiveLink="https://github.com/KBHASKAR306/MNet"
+            projectLink="https://github.com/KBHASKAR306/MNet"
           />
           <ProjectCard
             projectImage={mitwpu}
@@ -63,16 +63,16 @@ export default function Projects() {
             techStack={
               "JAVASCRIPT, PHP, HTML, BOOTSTRAP, CSS"
             }
-            projectLiveLink="https://siddharthpilliinai.github.io/docs-1/"
-            projectLink="#"
+            // projectLiveLink="https://siddharthpilliinai.github.io/docs-1/"
+            projectLink="https://siddharthpilliinai.github.io/docs-1/"
           />
           <ProjectCard
             projectImage={parul}
             projectName={"Parul Pathway"}
             // aboutProject={"A Blogging Website with User Authentication"}
             techStack={"JAVASCRIPT, PHP, HTML, BOOTSTRAP, CSS"}
-            projectLiveLink="https://inai.iiit.ac.in/iraste.html"
-            projectLink="#"
+            // projectLiveLink="https://inai.iiit.ac.in/iraste.html"
+            projectLink="https://inai.iiit.ac.in/iraste.html"
           />
           <ProjectCard
             projectImage={snaptest}
@@ -99,40 +99,10 @@ export default function Projects() {
             projectName={"BlueTail Website"}
             // aboutProject={"Blockchain based warranty using NFT"}
             techStack={"Python, REACT JS, MONGODB, Bootstrap, CSS3"}
-            projectLiveLink="#"
+            // projectLiveLink="#"
             projectLink="https://github.com/KBHASKAR306/ScribbleNet"
           />
         </SimpleGrid>
-        {/* <Flex
-          direction="row"
-          justifyContent="center"
-          alignItems="Center"
-          mt="40px"
-          mb="40px"
-        >
-          <Text color={textColorPrimary} fontSize="2em" textAlign="center">
-            {"<BLOGS/>"}
-          </Text>
-        </Flex>
-        <SimpleGrid
-          columns={{ base: 1, md: 2 }}
-          gap="50px"
-          alignItems="center"
-          justifyContent="center"
-        >
-          <ProjectCard
-            projectImage={steg}
-            projectName={"Steganography Blog Part 1"}
-            aboutProject={"This blog is about hiding text inside an Image"}
-            projectLink="#"
-          />
-          <ProjectCard
-            projectImage={steg}
-            projectName={"Steganography Blog Part 2"}
-            aboutProject={"This Blog is about hiding an Image inside an Image"}
-            projectLink="#"
-          />
-        </SimpleGrid> */}
       </Box>
     </Box>
   );

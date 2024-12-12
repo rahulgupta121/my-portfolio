@@ -60,7 +60,7 @@ export default function Footer() {
           opacity="0.6"
           _hover={{ opacity: 1 }}
         >
-          <Link href="https://github.com/rahulgupta121" target="blank">
+          <Link href="https://github.com/KBHASKAR306/" target="blank">
             <AiFillGithub />
           </Link>
         </ListItem>
@@ -84,7 +84,7 @@ export default function Footer() {
           opacity="0.6"
           _hover={{ opacity: 1 }}
         >
-          <Link href="https://www.linkedin.com/in/rahul-kumar-280430b0/" target="blank">
+          <Link href="https://www.linkedin.com/in/k-bhaskar-014497225/" target="blank">
             <BiLogoLinkedin />
           </Link>
         </ListItem>
@@ -96,7 +96,7 @@ export default function Footer() {
           opacity="0.6"
           _hover={{ opacity: 1 }}
         >
-          <Link href="https://www.instagram.com/er_rahul_44/" target="blank">
+          <Link href="https://www.instagram.com/kuntimalla_bhaskar/" target="blank">
             <BsInstagram />
           </Link>
         </ListItem>

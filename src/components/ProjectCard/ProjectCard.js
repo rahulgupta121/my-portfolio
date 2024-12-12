@@ -107,7 +107,7 @@ export default function ProjectCard(props) {
         >
           {projectLiveLink ? (
             <>
-              <Link
+              {/* <Link
                 href={projectLiveLink}
                 target="blank"
                 mt={{
@@ -128,7 +128,7 @@ export default function ProjectCard(props) {
                 >
                   View Website
                 </Button>
-              </Link>
+              </Link> */}
             </>
           ) : (
             <></>
