@@ -133,7 +133,7 @@ export default function ProjectCard(props) {
           ) : (
             <></>
           )}
-          <Link
+          {/* <Link
             href={projectLink}
             target="blank"
             mt={{
@@ -154,7 +154,7 @@ export default function ProjectCard(props) {
             >
               {techStack ? "View Project" : "View Blog"}
             </Button>
-          </Link>
+          </Link> */}
         </Flex>
       </Flex>
     </Box>

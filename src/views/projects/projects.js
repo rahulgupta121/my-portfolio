@@ -52,7 +52,7 @@ export default function Projects() {
             // aboutProject={"A Realtime Chatting Application"}
             techStack={"Html, CSS, Js, JQuary, Bootstrap"}
             projectLiveLink="https://online.chartcommando.com/webinar/"
-            projectLink="#"
+            // projectLink="#"
           />
           <ProjectCard
             projectImage={mitwpu}
@@ -64,7 +64,7 @@ export default function Projects() {
               "JAVASCRIPT, PHP, HTML, BOOTSTRAP, CSS"
             }
             projectLiveLink="https://admissions.mitwpu.edu.in/international/"
-            projectLink="#"
+            // projectLink="#"
           />
           <ProjectCard
             projectImage={parul}
@@ -72,7 +72,7 @@ export default function Projects() {
             // aboutProject={"A Blogging Website with User Authentication"}
             techStack={"JAVASCRIPT, PHP, HTML, BOOTSTRAP, CSS"}
             projectLiveLink="https://paruluniversity.ac.in/pathwayprograms_2023/"
-            projectLink="#"
+            // projectLink="#"
           />
           <ProjectCard
             projectImage={snaptest}
@@ -83,6 +83,7 @@ export default function Projects() {
             techStack={
               "JAVASCRIPT, PHP, HTML, BOOTSTRAP, CSS"
             }
+            projectLiveLink="https://www.snaptest.org/"
             projectLink="https://www.snaptest.org/"
           />
           <ProjectCard
@@ -92,6 +93,7 @@ export default function Projects() {
             //   "Translated Texts With The Help Of Encoder- Decoder LSTM Model And Attention Mechanism"
             // }
             techStack={"JAVASCRIPT, PHP, HTML, BOOTSTRAP, CSS"}
+            projectLiveLink="https://staging-web.srv.media/inifd-kothrud-microwebsite-3/"
             projectLink="https://staging-web.srv.media/inifd-kothrud-microwebsite-3/"
           />
           <ProjectCard
@@ -100,7 +102,7 @@ export default function Projects() {
             // aboutProject={"Blockchain based warranty using NFT"}
             techStack={"Python, REACT JS, MONGODB, Bootstrap, CSS3"}
             projectLiveLink="#"
-            projectLink="#"
+            // projectLink="#"
           />
         </SimpleGrid>
         {/* <Flex
@@ -124,13 +126,13 @@ export default function Projects() {
             projectImage={steg}
             projectName={"Steganography Blog Part 1"}
             aboutProject={"This blog is about hiding text inside an Image"}
-            projectLink="#"
+            // projectLink="#"
           />
           <ProjectCard
             projectImage={steg}
             projectName={"Steganography Blog Part 2"}
             aboutProject={"This Blog is about hiding an Image inside an Image"}
-            projectLink="#"
+            // projectLink="#"
           />
         </SimpleGrid> */}
       </Box>
